@@ -2,7 +2,9 @@ variable "region" {
   default = "us-east-1"
 }
 
-variable "tag" {}
+variable "tag" {
+  default = "Demo-Instance"
+}
 
 variable "ami_name_value" {
   default = "amzn-ami-vpc-nat*"
