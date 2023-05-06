@@ -23,13 +23,13 @@ variable "iscreate" {
 }
 
 variable "sg_id" {
-  default = "sg-08efb3ac8930fd585"
+  default = "sg-0d61315e929c9b42c"
 }
 
 
 variable "keyname" {
-  default = "jenkinskey"
+  default = "EAST-KEY"
 }
 variable "vpc_id" {
-  default = "vpc-01507e6d296b95f17"
+  default = "vpc-070c3c4ddf310be5d"
 }
